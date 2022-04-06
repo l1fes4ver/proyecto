@@ -31,7 +31,7 @@ def plantilla(request):#para una view si o si le tenemos que pasar la 'request' 
     dicc1 = {
 
     }
-    return render(request, 'index.html', dicc1)#esto es lo que YO quiero que aparezca en la pagina
+    return render(request, 'indice/index.html', dicc1)#esto es lo que YO quiero que aparezca en la pagina
 
  
 #lista = [1,2,3,4,5,6,7,8,9]
@@ -53,11 +53,10 @@ def plantilla(request):#para una view si o si le tenemos que pasar la 'request' 
   # {% endif %}## en este lenguaje se le indica el finalizamiento del if
   # {{nombre}}{{plantilla}}
 
- #template = loader.get_template("mi_plantilla.html")#la carpeta que contiene mi plantilla
- #   dicc= {
+def mi_plantilla(request):#la carpeta que contiene mi plantilla
+    dicc= {
 
- #   }
+   }
     #plantilla_preparada = template.render({dicc})
     #return HttpResponse(plantilla_preparada)
-
- #   return render(request, "mi_plantilla.html", dicc)
+    return render(request, "indice/mi_plantilla.html", dicc)
