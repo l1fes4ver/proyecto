@@ -2,9 +2,9 @@
 
  1) CREO UNA CARPETA Y LA ABRO DESDE VISUAL ESTUDIO
 ""mkdir venv."" ##asi me creo una carpeta dentro de DEV (me tiene que aparecer esto 'maxgarat@Maxs-Air Dev %')llamada venv, necesito estar dentro de DEV para que esto funcione
-""python3.9 -m venv venv."" ##asi me creo un virtual environment en la carpetita de venv
-"". venv./bin/activate"" ##asi lo activo
-""pip freeze >>requirements"" ##asi me dice todo lo que tengo activado en el virtual envirnoment, osea necesito estar dentro del virtual environment para codear esto y que me aparezcan todas las cosas estas
+""python3.9 -m venv venv"" ##asi me creo un virtual environment en la carpetita de venv
+"" venv./bin/activate"" ##asi lo activo
+""pip freeze > requirements"" ##asi me dice todo lo que tengo activado en el virtual envirnoment, osea necesito estar dentro del virtual environment para codear esto y que me aparezcan todas las cosas estas
 ""pip install django"" ##asi instalo django en el entorno virtual, conviene crearlo siempre dentro del entorno virtual
 ""django-admin startproject miproyecto"" ##asi creo el proyecto, esto me crea una carpeta llamada 'mi proyecto', se me van a crear 2 iguales entonces le cambio el nombre a una y borro la que me haya quedado vacia, asi me quedo solo con una
 ""git init"" ##trae a git, el '.git ignore', lo que hace es ingorarme los documentos en los que yo les asigne a gitignore

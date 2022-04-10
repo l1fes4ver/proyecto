@@ -8,8 +8,8 @@ urlpatterns = [
     #path('',otra_vista),
     path('numero-random/',numero_random),#asi la pagina me genera un numero random
     path('dame-numero/<int:numero>',numero_del_usuario),#esto es para que la pagina me pida un numero con el <> le indico el argumento que va a ir en el link, en la direccion, observar que debe como argumento "numero" ya que este es el argumento que tiene la def que esta en este path
-    path('mi_plantilla/', mi_plantilla),
-    path('plantilla/', plantilla)
+    path('mi-plantilla/', mi_plantilla),
+    path('', plantilla)
   
     
 
