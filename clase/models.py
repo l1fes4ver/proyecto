@@ -12,7 +12,7 @@ class Profesor(models.Model):
     nombre = models.CharField(max_length=20)
     apellido = models.CharField(max_length=30)
     email = models.EmailField()
-    profesion = models.CharField(max_length=20)
+    profesion = models.CharField(max_length=21)
 
 
 class Entregable(models.Model):
